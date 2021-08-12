@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="BookStore.Login1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/login.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .btn-signin{
+                width: 50%;
+                left: 0;
+                z-index: 0;
+                border-radius: 10px;
+                transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+                background: -webkit-linear-gradient(left,#ff9aa2,#ffb7b2);
+                border: 1px solid #ff9aa2;
+        }
+        .btn-signup{
+                width: 50%;
+                left: 0;
+                z-index: 0;
+                border-radius: 10px;
+                transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+                background: #fff;
+                border: 1px solid #ff9aa2;
+        }
+        .input-txt{
+                margin-bottom: 20px;
+                height: 45px;
+                width: 100%;
+                outline: none;
+                padding-left: 15px;
+                font-size: 17px;
+                border-radius: 5px;
+                border: 1px solid lightgrey;
+                border-bottom-width: 2px;
+                transition: all 0.4s ease;
+        }
+        .btn-form{
+            list-style: none;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            background: -webkit-linear-gradient(left,#ff9aa2,#ffb7b2);
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            width: 100%;
+            margin-top: 30px;
+            border: none;
+        }
+        
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <div class="wrapper">
+                  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                
+            </div>
+
+          
+        </div>
+    </form>
+</body>
+</html>

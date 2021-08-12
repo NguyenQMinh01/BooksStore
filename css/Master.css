@@ -1,0 +1,144 @@
+﻿.body {
+    background-color: rgb(252, 224, 224);
+}
+
+.none-list-style {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar {
+    padding: 20px;
+}
+
+.search {
+    padding-left: 6px;
+    border-left: 1px solid black;
+}
+
+    .search input {
+        border: none;
+    }
+
+    .search i {
+        cursor: pointer;
+    }
+
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.item {
+    height: 400px;
+}
+
+    .item .row {
+        height: 320px;
+    }
+
+.img-card {
+    position: relative;
+}
+
+    .img-card img {
+        padding-top: 10px;
+        position: absolute;
+        border-radius: 4px;
+    }
+
+.carousel .row :hover > img {
+    padding-top: 0;
+    transition: all 0.1s ease;
+    height: 360px;
+}
+
+.card-body h5, p {
+    color: white;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+    .owl-nav .owl-prev, .owl-next {
+        position: absolute;
+        width: 40px;
+        height: 60px;
+        background: #000;
+    }
+
+    .owl-nav .owl-next {
+        right: 0;
+    }
+
+    .owl-nav .owl-prev {
+        left: 0;
+    }
+
+.list-books .card {
+    border: none;
+}
+
+    .list-books .card .row {
+        background: rgb(248, 246, 246);
+    }
+
+        .list-books .card .row:hover {
+            background: rgb(155, 155, 155);
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+.list-books .card-text {
+    font-size: 10px;
+    color: black;
+}
+
+.list-books .btn:hover {
+    background: rgb(148, 148, 148);
+}
+
+.separate {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+footer {
+    margin-top: 10px;
+    background-color: black;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+    footer p > span {
+        color: orangered;
+    }
+
+    footer .column i {
+        color: #dd2467;
+        margin-left: 5px;
+    }
+
+.ban-text {
+    margin-top: 5px;
+}
+
+.modal-text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.area-text {
+    width: 100%
+}
+
+.sell-img {
+    width: 100%;
+}
+

@@ -1,0 +1,87 @@
+﻿
+
+.content .img-card {
+    margin-top: -80px;
+}
+
+    .content .img-card img {
+        height: 230px;
+        border-radius: 5%;
+    }
+
+.search input {
+    border: none;
+}
+
+.search i {
+    cursor: pointer;
+}
+
+.header-title {
+    margin-left: 20%;
+}
+
+.content .row .col-6 .row {
+    background: #fff;
+}
+
+.content .card-title {
+    color: black;
+}
+
+.content .card-body {
+    height: 150px;
+}
+
+.content .card-footer {
+    margin-bottom: 9%;
+}
+
+.content .row {
+    margin-top: 5%;
+}
+
+    .content .row :hover > img {
+        cursor: pointer;
+        transition: all 0.1s ease;
+        margin-top: -1%;
+    }
+
+.content .card-body a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: black;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+    footer p > span {
+        color: orangered;
+    }
+
+    footer .column i {
+        color: #dd2467;
+        margin-left: 5px;
+    }
+
+.ban-text {
+    margin-top: 5px;
+}
+
+.modal-text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.area-text {
+    width: 100%
+}
+
+.sell-img {
+    width: 100%;
+}
+ 
