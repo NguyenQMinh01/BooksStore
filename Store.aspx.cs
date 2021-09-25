@@ -17,7 +17,7 @@ namespace BookStore
             
             if (!IsPostBack)
             {
-                string str = "Data Source = ADMIN\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
+                string str = "Data Source = MMTNGUYENQUANGM\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
                  con = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
@@ -62,7 +62,7 @@ namespace BookStore
                 string identity = ((TextBox)DataList1.SelectedItem.FindControl("TextBox2")).Text;
                 string id = Request.QueryString["id"].ToString();
 
-                string str = "Data Source = ADMIN\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
+                string str = "Data Source = MMTNGUYENQUANGM\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
                 con = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;

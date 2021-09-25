@@ -31,37 +31,32 @@
                 <asp:TextBox ID="TextBox1" runat="server" BorderStyle="Solid" > </asp:TextBox>
                 
                 <asp:ImageButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" ImageUrl="~/img/search.png" Width="20px" Height="20px"/>
-                
-                
-                
-                
-                  
             </div>
-              <div class="header-title" style="margin-left:20%">Bookstore</div>
+              <div class="header-title">Bookstore</div>
           </div>
+
           <div class="col-3 d-flex">
-            
             <div id="dang-nhap" class="me-3">
-              <a href="SignIn.aspx" class="none-list-style">Đăng nhập</a>
+              <a href="SignIn.aspx" class="none-list-style">Sign in</a>
              </div>
             <div id="dang-ky" class="me-3">
-              <a href="SignUp.aspx" class="none-list-style">Đăng ký</a> 
+              <a href="SignUp.aspx" class="none-list-style">Sign up</a> 
             </div>
-            <a href="" class="none-list-style">
-              <div id="cart">
-                <i class="fas fa-shopping-cart"></i>
-                Giỏ hàng
-              </div>
-            </a>
+              <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="Black" NavigateUrl="~/Cart_Store.aspx">
+                <div class="cart">
+                  <div  id="cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    Giỏ hàng
+                  </div>
+                  </asp:HyperLink>
+        </div>
+     
             
           </div>
       </div>
- 
-</div>
- 
 
         <br /><br /><br />
-        <div class="container">
+        <div class="container body">
               
              <div class="cart-visible" style="background-color:white;">
                     
@@ -98,8 +93,7 @@
                                                 </ItemTemplate>
                                             </asp:DataList>
                                     </div>
-                                             
-                                    <div class="float-end d-flex">Tổng tiền: <p class="ms-5 cart-total-price"></p></div>
+                                     
                                   </div>
         
         <br /><br />
@@ -145,7 +139,9 @@
     </div>
    </footer>
     </form>
+
     <script src="js/store_feature.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>

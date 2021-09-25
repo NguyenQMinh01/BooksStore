@@ -33,9 +33,9 @@
             </div>
               <div class="header-title">Bookstore</div>
           </div>
+
           <div class="col-3 d-flex">
             <div id="dang-nhap" class="me-3">
-
               <a href="SignIn.aspx" class="none-list-style">Sign in</a>
              </div>
             <div id="dang-ky" class="me-3">
@@ -148,8 +148,9 @@
     <div class="col-3">
       
       <div class="container">
+           
         <h5 class="ms-4 mt-2">Author of week</h5>
-
+          
           <asp:DataList ID="DataList1" runat="server">
               <ItemTemplate>
                      <div class="card mb-3 card-list-books" >
@@ -189,9 +190,38 @@
     color: black;
 "></asp:HyperLink></button>
             </ItemTemplate>
+                
             </asp:DataList>
+           
         </div>
           <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+          <p>
+  <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    +++
+  </a>
+  
+</p>
+<div class="collapse" id="collapseExample" style="
+    position: absolute;
+    margin: 38px;
+    z-index: 1;
+    width: 13%;
+    margin-left: 720px;
+">
+  <div class="card card-body">
+   
+            <button class="btn"> Action</button>
+            <button class="btn"> Fantasy</button>
+            <button class="btn"> ManHual</button>
+      <button class="btn"> Mystery</button>
+      <button class="btn"> Manhwa</button>
+      <button class="btn"> Adventure</button>
+      <button class="btn"> Comeny</button>
+      <button class="btn"> Romance</button>
+      <button class="btn"> Webtoon</button>
+      <button class="btn"> Comic</button>
+  </div>
+</div>
       </div>
       <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

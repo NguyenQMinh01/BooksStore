@@ -36,10 +36,10 @@
           </div>
           <div class="col-3 d-flex">
             <div id="dang-nhap" class="me-3">
-              <a href="SignIn.aspx" class="none-list-style">Đăng nhập</a>
+              <a href="SignIn.aspx" class="none-list-style">Sign in</a>
              </div>
             <div id="dang-ky" class="me-3">
-              <a href="SignUp.aspx" class="none-list-style">Đăng ký</a> 
+              <a href="SignUp.aspx" class="none-list-style">Sign up</a> 
             </div>
               <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="Black" NavigateUrl="~/Cart_Store.aspx">
                 <div class="cart">

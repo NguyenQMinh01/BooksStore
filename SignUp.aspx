@@ -18,6 +18,7 @@
                         <label class="mt-3">Username</label>
                         <asp:TextBox ID="TextBox1" runat="server" CssClass="input-txt"></asp:TextBox>
                         <asp:Label ID="Label2" runat="server" Text="" ForeColor="Red"></asp:Label>
+                        <br />
                         <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
                         Password
                         <asp:TextBox ID="TextBox2" runat="server" CssClass="input-txt" TextMode="Password"></asp:TextBox>

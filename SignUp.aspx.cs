@@ -29,12 +29,12 @@ namespace BookStore
                 return;
             }
            
-                string str = "Data Source = ADMIN\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
+                string str = "Data Source = MMTNGUYENQUANGM\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
                 SqlConnection con = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
                 con.Open();
-                String strCmd = "insert into Account values('" + TextBox1.Text + "', '" + TextBox2.Text + "')";
+                String strCmd = "insert into Account values('"+2+"','" + TextBox1.Text + "', '" + TextBox2.Text +"','"+1+"')";
                 cmd.CommandText = strCmd;
                 int rs = cmd.ExecuteNonQuery();
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Dang ky thanh cong')", true);

@@ -23,7 +23,7 @@ namespace BookStore
                 return;
             }
           
-                string str = "Data Source = ADMIN\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
+                string str = "Data Source = MMTNGUYENQUANGM\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
                 SqlConnection con = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;

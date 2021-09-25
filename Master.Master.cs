@@ -16,7 +16,7 @@ namespace BookStore
         {
             if (!IsPostBack)
             {
-                string str = "Data Source = ADMIN\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
+                string str = "Data Source = MMTNGUYENQUANGM\\SQLEXPRESS; Initial Catalog =  BookStore; User ID = sa;PassWord = 123";
                 SqlConnection con = new SqlConnection(str);
 
                 SqlCommand cmd = new SqlCommand();
@@ -46,11 +46,6 @@ namespace BookStore
 
                 DataList2.DataSource = dt;
                 DataList2.DataBind();
-
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "select * from Store,Cart where store.store_id = Cart.store_id";
-                cmd.Connection = con;
-
 
                 con.Close();
                 
